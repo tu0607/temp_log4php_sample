@@ -1,0 +1,17 @@
+{
+    "name": "uno.takamasa/temp_log4php_sample",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "apache/log4php": "^2.3"
+    },
+    "autoload": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Log4php\\": "vendor/apache/log4php/main/php"
+        }
+    },
+    "scripts": {
+        "runtest": "phpunit -c ./test/phpunit.xml ./test"
+    }
+}
